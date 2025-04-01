@@ -1,0 +1,33 @@
+# Development files
+.git
+.github
+.vscode
+*.log
+node_modules/
+
+# Build files
+coverage/
+.nyc_output/
+
+# Test files
+__tests__/
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation
+docs/
+examples/
+.editorconfig
+.eslintrc
+.prettier*
+tsconfig.json
+.travis.yml
+.gitlab-ci.yml
+CHANGELOG.md
+CONTRIBUTING.md
+
+# Source control
+.git*
+.gitlab*
