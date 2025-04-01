@@ -35,7 +35,7 @@ Now, you can continue with the next installation steps normally.
 
 ```bash
 # Install globally
-npm install -g cx-cli
+npm install -g cx-client
 ```
 
 ## Usage

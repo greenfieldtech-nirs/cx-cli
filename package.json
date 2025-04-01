@@ -1,11 +1,12 @@
 {
-  "name": "cx-cli",
-  "version": "0.1.0",
+  "name": "cx-client",
+  "version": "0.1.1",
   "description": "Cloudonix CLI tool for managing accounts and resources",
   "main": "src/index.js",
   "bin": {
     "cx-cli": "./bin/cx-cli.js"
   },
+  "private": false,
   "scripts": {
     "test": "echo \"No tests implemented yet\"",
     "start": "node src/index.js",
@@ -22,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloudonix/cx-cli.git"
+    "url": "https://github.com/greenfieldtech-nirs/cx-cli"
   },
   "bugs": {
-    "url": "https://github.com/cloudonix/cx-cli/issues"
+    "url": "https://github.com/greenfieldtech-nirs/cx-cli/issues"
   },
-  "homepage": "https://github.com/cloudonix/cx-cli#readme",
+  "homepage": "https://github.com/greenfieldtech-nirs/cx-cli#readme",
   "engines": {
     "node": ">=14.0.0"
   },
